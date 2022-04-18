@@ -1,0 +1,76 @@
+.container {
+  padding: 2.5rem;
+  min-height: 50vh;
+  min-width: 50vw;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 12px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(32, 32, 32);
+}
+.repo-num {
+  padding: 1rem 0;
+}
+.repo-num span {
+  display: inline-block;
+  color: red;
+  margin-left: 5px;
+}
+.search-input {
+  padding: 2rem 0 5px 0;
+  display: flex;
+  align-items: center;
+}
+.search-div > input {
+  outline: 0;
+  padding: 7px;
+  border: 0.5px solid rgb(143, 143, 143);
+}
+
+.search-div > input[type="submit"] {
+  padding: 7px 12px;
+  cursor: pointer;
+  font-weight: 400;
+  border: 0.5px solid rgb(143, 143, 143);
+  margin-right: 5px;
+}
+.search-div > input[type="submit"]:hover {
+  background-color: rgb(201, 57, 57);
+  color: white;
+}
+.error-message {
+  color: red;
+  letter-spacing: 1px;
+}
+th {
+  text-align: left;
+}
+tr td {
+  padding: 4px 0px;
+}
+.table-head th {
+  padding: 5px 0px;
+  padding-right: 2rem;
+}
+.result-header {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+  padding: 0.31rem 2rem;
+}
+.filter {
+  display: flex;
+  font-size: larger;
+  font-weight: 600;
+  margin-left: 2rem;
+}
+.filter input {
+  outline: 0;
+  margin-left: 10px;
+  border: 0;
+  border-bottom: 2px solid rgb(104, 104, 104);
+}

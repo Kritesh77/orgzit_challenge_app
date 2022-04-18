@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s all ease;
+}
+
+body {
+  background: rgb(219, 219, 219);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
